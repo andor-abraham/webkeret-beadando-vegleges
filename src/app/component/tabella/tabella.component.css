@@ -1,0 +1,21 @@
+
+.logo {
+    width: 50px; 
+    height: 50px; 
+    
+  }
+  .tabelladiv{
+    width: 90%;
+    margin:30px auto;
+    border-radius: 15px 15px;
+    padding: 10px;
+    overflow: auto;
+    background-color: lightskyblue;
+  }
+  mat-slide-toggle.toogle {
+    margin: 30px auto;
+  }
+  
+  .mat-table {
+    overflow-x: auto; 
+  }

@@ -1,0 +1,57 @@
+<body>
+    <header>
+        <img src="../../../assets/szegedlogo.png" alt="szegedlogo"><h1>Szeged BYD Akadémia</h1>
+    </header>
+    
+    
+    <div id="tabelladiv">
+        <app-tabella></app-tabella>
+      </div>
+    
+     
+<mat-list class="gollovolista">
+  <h1>Házi Góllövőlista</h1>
+  
+  <mat-list-item class="leaderboard__profile">
+    <img src="../../../assets/jatekosok/bode.png" class="kep" alt="Böde Dániel">
+    <div matLine class="leaderboard__name">Böde Dániel</div>
+    <div matLine class="leaderboard__value">
+      <span>4</span>
+      <img src="../../../assets/egyeb/labda.png" alt="labda" class="gollabda">
+    </div >
+    
+  </mat-list-item>
+
+  
+  <mat-list-item class="leaderboard__profile">
+    <img  src="../../../assets/jatekosok/ovari.png" class="kep" alt="Óvári Zsolt">
+    <div matLine class="leaderboard__name">Óvári Zsolt</div>
+    <div matLine class="leaderboard__value">
+      <span>2</span>
+      <img src="../../../assets/egyeb/labda.png" alt="labda" class="gollabda">
+    </div>
+  </mat-list-item>
+
+
+
+</mat-list>
+
+    
+
+        
+    <footer>
+        <div class="elerhetoseg">
+            <h3>Elérhetőségeink:</h3>
+            <p>Email: {{ email }}</p>
+            <p>Telefonszám: {{ phone }}</p>
+        </div>
+        <div class="helycim">
+            <h3>Pontos cím:</h3>
+            <p>{{ address }}</p>
+        </div>
+        <div class="jogok">
+            <p>&copy; 2024 Szeged BYD Akadémia. Minden jog fenntartva.</p>
+            <p> Az oldalt készítette: {{ creators }}</p>
+        </div>
+    </footer>
+</body>

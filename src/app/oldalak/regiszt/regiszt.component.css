@@ -1,0 +1,32 @@
+.main_component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.div-flex {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: darkslategrey;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+  border-radius: 8px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+#regh1{color: whitesmoke;
+margin-bottom: 10px;}
+
+.buttons {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+button {
+  width: 150px; 
+}
+  

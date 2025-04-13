@@ -1,0 +1,13 @@
+<div class="jatekosok">
+    <mat-card *ngFor="let player of players" class="jatekos">
+      <img mat-card-image [src]="player.image" [alt]="player.name">
+      <mat-card-content>
+        <div class="jatekosinfo">
+          <h3 class="jatekosnev">{{ player.name }}</h3>
+          <p class="jatekosszam">Mezszám: {{ player.number }}</p>
+          <p class="jatekospozicio">Szerepkör: {{ player.position }}</p>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

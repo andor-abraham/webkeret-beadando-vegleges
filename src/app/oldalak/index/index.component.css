@@ -1,0 +1,145 @@
+main{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px 50px;
+    background-color: white;
+    overflow: hidden
+}
+body{
+    background-color: lightseagreen;
+}
+#attrdirektiv{
+    text-align: center;
+    font-size: 30px;
+}
+
+main #bemutatkozoszoveg h1{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px
+}
+main #bemutatkozoszoveg p{
+    font-size: 35px;padding: 10px 15px;
+    width:auto;
+    text-align: justify;
+    display: block;
+}
+main #bemutatkozoszoveg img{
+    float: right;
+    display: block;
+    margin-right:20px;
+    margin-left:10px ;
+    height:400px;
+border-radius: 20%
+}
+main #stadionleiras h1{
+    padding: 10px 15px;
+    font-size: 50px;
+}
+main #stadionleiras p {
+    font-size: 35px;
+    padding: 10px 15px;
+    width:auto;
+    text-align: left;
+    display: block;
+}
+main #stadionleiras img{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-left: 10px ;
+    height: 400px;
+    border-radius: 15%;
+}
+
+#hirek{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hir{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+}
+.hir p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+#hírekcím{
+    text-align: center;
+    margin: 20px auto;
+}
+.hir img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#szponzorok{
+        background-color: white;
+        overflow: auto;height: 200px;
+        white-space: nowrap;
+        padding-top:20px;
+}
+#szponzorok img{
+    width: 250px;
+    height: 150px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 650px) {
+    main #bemutatkozoszoveg img {
+        float: right;
+        display: block;
+        margin-right: 2px;
+        height: 200px;
+        width: auto
+    }
+    main #stadionleiras img {
+        float: left;
+        display: block;
+        margin-right: 10px;
+        height: 200px;
+        width: auto
+    }
+    main #bemutatkozoszoveg p {text-align: left;font-size: 20px}
+    main #stadionleiras p {text-align: justify;font-size: 20px}
+}
+
+@media screen and (max-width: 376px) {
+    main #bemutatkozoszoveg img {
+        float: none;
+        margin: 2px auto;
+        height: 200px;
+    }
+    main #stadionleiras img {
+        float: none;
+        margin: 2px auto;
+        height: 200px;
+    }
+}
+#szponzorok {
+    overflow: hidden;
+
+}
+.mozgodiv {
+    animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); 
+}
+}

@@ -1,0 +1,15 @@
+
+<nav>
+    <ul id="navbarmobil">
+        <li ><a routerLink="/"   >Főoldal</a></li>
+        <li><a routerLink="/csapat"  >Csapat</a></li>
+        <li ><a routerLink="/menetrend"  >Menetrend</a></li>
+        
+        <li *ngIf="!(loggedInUser)"><a routerLink="/login"  >Login</a></li>
+        <li ><a routerLink="/profil"  >Profilom</a></li>
+        <li *ngIf="!(loggedInUser)"><a routerLink="/regiszt"  >Regisztráció</a></li>
+        <li *ngIf="loggedInUser"><a routerLink="/login" (click)="logout()">Logout</a></li>
+
+    </ul>
+</nav>
+<router-outlet />
