@@ -1,0 +1,90 @@
+<body>
+    <header>
+        <img src="../../../assets/szegedlogo.png" alt="szegedlogo"><h1>Szeged BYD Akadémia</h1>
+    </header>
+    
+    <main>
+       
+
+<h1>{{ title | uppercase }}</h1>
+
+<button (click)="textColor = '#FF0000'">Red</button>
+<button (click)="textColor = '#00FF00'">Green</button>
+<button (click)="textColor = '#0000FF'">Blue</button>
+
+        <div id="bemutatkozoszoveg" >
+            <h1 [appTextColor]="textColor">Üdvözlünk a csapatnál!</h1>
+            <img src="../../../assets/egyeb/edzesindex.png" alt="Edzeskepaialtal">
+            <p>Nagy örömünkre szolgál, hogy bemutathatjuk magunkat a labdarúgás világában. Mi, a Szeged BYD Akadémia, egy fiatal, ambiciózus csapat vagyunk, akik együtt dolgoznak azért, hogy meghódítsuk a futball pályákat és a szurkolók szíveit. </p>
+            <p>A szurkolók a csapatunk legfontosabb részei. Nélkülük nem lenne ugyanaz az atmoszféra a stadionban, és nem lenne ugyanaz a lendület a pályán. A Szeged csapatának hűséges szurkolótábora mindig ott van velünk, bármelyik stadionban játszunk is.</p>
+            <p>Ahogy útnak indulunk a siker felé, hálásak vagyunk minden támogatásért és bizalomért, amit kapunk. Ígérjük, hogy minden mérkőzésen a legjobbunkat fogjuk nyújtani, és büszkén fogjuk képviselni a Szeged BYD Akadémia nevét.</p>
+            <p>Köszönjük, hogy csatlakoztatok hozzánk ezen az izgalmas utazáson! <strong>Hajrá Szeged!</strong></p>
+        </div>
+        <div id="stadionleiras">
+            <h1>Tisza-parti Aréna</h1>
+            <img src="../../../assets/egyeb/stadion.jpg" alt="Stadionkepaialtal">
+            <p>A Tisza-parti Aréna Szeged új büszkesége, amely a város ikonikus folyója, a Tisza partján emelkedik. Ez a modern stadion otthont ad a város legújabb futballcsapatának, és egyben közösségi központként is szolgál a sport és a kultúra szerelmesei számára.</p>
+            <p>Az aréna tervezésekor kiemelt figyelmet fordítottak a fenntarthatóságra és az innovációra, így a létesítmény környezetbarát megoldásokkal rendelkezik, mint például napenergia-hasznosítás és esővízgyűjtő rendszerek. Ez a modern megközelítés nemcsak a stadion működését teszi fenntarthatóvá, hanem inspirációt nyújt a környezettudatosság iránt elkötelezett közösségnek is.</p>
+            <p>A Tisza-parti Aréna nemcsak futballmérkőzéseknek ad otthont, hanem kulturális eseményeknek, koncerteknek és egyéb rendezvényeknek is. Az aréna építésével céljuk volt, hogy egy olyan helyet hozzanak létre, amely összehozza a város lakóit és vendégeit, és emlékezetes élményeket nyújt mindenkinek, aki ellátogat ide.</p>
+        </div>
+    </main>
+    <h1 id="hírekcím">Hírek</h1>
+<div id="hirek">
+    <div class="hir">
+        <img src="../../../assets/hirek/hir1.jpg" alt="Hír 1">
+        <h2>Friss Igazolás a Láthatáron</h2>
+        <p>A Szeged labdarúgócsapata örömmel jelentette be, hogy hivatalosan leigazolta a magyar tehetséges középpályást, Sigér Dávidot. </p>
+        <p>A 33 éves tapasztalt játékost csapatunk, 300 euróért vásárolta ki a Ferencváros csapatától.</p>
+    </div>
+    <div class="hir">
+        <img src="../../../assets/hirek/hir2.jpg" alt="Hír 2">
+        <h2>Szurkolói járat Pécsre</h2>
+        <p>Örömmel értesítjük szurukolóinkat, hogy klubbunk buszjáratot biztosít a soron következő mérkőzésünkre (melyet Pécsen játszunk), hogy együtt biztassuk csapatunkat.</p>
+        <p>Érdeklődni emailen vagy telefonos formában lehet.</p>
+    </div>
+    <div class="hir">
+        <img src="../../../assets/hirek/hir3.jpg" alt="Hír 3">
+        <h2>Nagy Ádám lesérült</h2>
+        <p>A magyar válogatott és Szeged labdarúgója, Nagy Ádám sajnálatos sérülést szenvedett a legutóbbi mérkőzésünkön.</p>
+        <p>A szurkolók reménykednek, hogy Nagy Ádám hamarosan újra a pályán lesz, és továbbra is hozzájárulhat csapatának sikereihez.</p>
+    </div>
+    <div class="hir">
+        <img src="../../../assets/hirek/hir4.jpg" alt="Hír 4">
+        <h2>Játékosaink a hét csapatában</h2>
+        <p>Ismét büszkén ünnepelhetjük klubunk játékosait, hiszen három kiválóságunkat is bekerült a legutóbbi forduló csapatába.</p>
+        <p>A szurkolók örömmel gratulálnak a játékosoknak és bíznak abban, hogy kitűnő formájuk hozzá járul majd a csapat sikereiben a következő mérkőzéseken.</p>
+    </div>
+</div>
+<div id="szponzorok">   
+        <div class="mozgodiv">
+            <img src="../../../assets/szponzorok/tippmixlogo.png" alt="Tippmix logo" class="slide">
+            <img src="../../../assets/szponzorok/telekom.png" alt="Telekom" class="slide">
+            <img src="../../../assets/szponzorok/byd.png" alt="BYD" class="slide">
+            <img src="../../../assets/szponzorok/pick.png" alt="PICK" class="slide">
+            <img src="../../../assets/szponzorok/mvm.png" alt="MVM" class="slide">
+            <img src="../../../assets/szponzorok/tippmixlogo.png" alt="Tippmix logo" class="slide">
+            <img src="../../../assets/szponzorok/telekom.png" alt="Telekom" class="slide">
+            <img src="../../../assets/szponzorok/byd.png" alt="BYD" class="slide">
+            <img src="../../../assets/szponzorok/pick.png" alt="PICK" class="slide">
+            <img src="../../../assets/szponzorok/mvm.png" alt="MVM" class="slide">
+        </div>
+</div>
+
+
+    <footer>
+        <div class="elerhetoseg">
+            <h3>Elérhetőségeink:</h3>
+            <p>Email: {{ email }}</p>
+            <p>Telefonszám: {{ phone }}</p>
+        </div>
+        <div class="helycim">
+            <h3>Pontos cím:</h3>
+            <p>{{ address }}</p>
+        </div>
+        <div class="jogok">
+            <p>&copy; 2025 Szeged BYD Akadémia</p>
+            <p> Az oldalt készítette: {{ creators }}</p>
+        </div>
+    </footer>
+    </body>
+    

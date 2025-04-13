@@ -1,0 +1,86 @@
+/* A lábléc és fejléc */
+*{
+    margin: 0;
+}
+header{
+    background-color: lightblue;
+    font-family: Gilroy,sans-serif;
+    text-align: center;
+}
+header h1{
+    padding-bottom: 25px;
+    font-size: 50px
+}
+header img{
+    height: 150px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 20px 5px; z-index: 1000;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    height: auto;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+    font-size: 27px;
+}
+nav ul li a:hover {
+    background-color: #aaa;
+
+}
+footer{
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.elerhetoseg, .helycim{
+    margin-bottom: 20px;
+}
+footer p{
+    margin: 5px 0;
+}
+footer a{color:white}
+#aktoldal{
+    background-color: olivedrab;
+}
+.btn{
+    background-color:red;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color:white;
+}
+.btn:hover{transform: scale(1.03);}
+@media screen and (max-width: 1300px) {
+    nav ul li{
+        display: inline-flex;
+    }
+    nav ul li a{
+        padding: 10px 5px;
+        font-size: 20px;
+
+    }
+    header h1{
+        padding-bottom: 25px;
+        font-size: 40px
+    }
+}
+
+
+
+

@@ -1,0 +1,36 @@
+.main_component {
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking of form elements */
+  justify-content: center;
+  align-items: center;
+}
+.div-flex {
+  width: 100%;
+  max-width: 500px; /* Maximum width of the form */
+  padding: 20px;
+  background: darkslategrey; /* White background for the form */
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+#logh1{color: whitesmoke;
+  margin-bottom: 10px;}
+
+mat-form-field {
+  width: 100%; /* Full width fields */
+  margin-bottom: 16px; /* Space between fields */
+}
+
+.buttons, span {
+  display: inline-block; /* Inline display for buttons */
+  margin-right: 8px; /* Space between buttons */
+}
+
+button {
+  width: 150px; /* Equal width for all buttons */
+}
+
+/* Additional centering for headers if needed */
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Space between header and form fields */
+}
